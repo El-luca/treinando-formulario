@@ -1,0 +1,171 @@
+.base{
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.half-a{
+    width: 50%;
+    background-color: #312E38;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 230,03px;
+    height: 134px;
+    margin-top: 122px;
+    margin-bottom: 80px;
+}
+
+.title{
+    width: 164px;
+    height: 32px;
+    font-size: 24px;
+    color: #f4ede8;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.mini-logo{
+    width: 340px;
+    height: 56px;
+    display: flex;
+}
+
+.mini-icon{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-color: #232129;
+    padding: 18px 16px 20px 18px;
+    border-radius: 10px 0 0 10px;
+}
+
+.info-field{
+    width: 340px;
+    height: 56px;
+    border-radius: 0 10px 10px 0;
+    background-color: #232129;    
+    border: none;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: #666360;   
+}
+
+.info-field:hover{
+    color:aliceblue;
+    text-transform: capitalize;
+    transition-duration: 300ms;
+    
+}
+
+.e-mail{
+    margin-bottom: 8px;
+}
+
+.password{
+    margin-bottom: 24px;
+}
+
+.send{
+    background-color: #ff9000;
+    align-items: center;
+    justify-content: center;
+}
+
+.enter{
+    margin-bottom: 24px;
+}
+
+.forgot{
+    color: #f4ede8;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+        
+}
+
+.singin{
+    margin-bottom: 80px;
+    
+}
+
+.create{
+    display: inline;
+    width: 25px;
+    height: 25px;
+    margin-right: 16px;
+}
+
+.mini-create{
+    display: inline;
+    align-items: center;
+    margin-right: 16px;
+    width: 25px;
+    height: 25px;
+}
+
+.account{
+    color: #ff9000;
+    height: 20px;
+    text-decoration: none;
+    width: 85px;
+    height: 21px;
+
+}
+
+/* lado direito */
+
+.half-b{
+    width: 50%;
+    background-color: #2BA9EA;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.img-r{
+    width: 100%;
+    height: 100%;
+
+}
+
+/* pagina de registro  */
+
+.who{
+    display: flex;
+    
+}
+
+.who-am-i{
+    margin-bottom: 8px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rectangle{
+    width: 84px;
+    height: 2px;
+    margin-bottom: 40px;
+
+}
+
+.name-email{
+    margin-bottom: 8px;
+}
+
+.password-register{
+    margin-bottom: 16px;
+}
+
+.register{
+    margin-bottom: 80px;
+}
